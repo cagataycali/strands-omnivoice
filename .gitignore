@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+.env
+*.log
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+site/
+*.bak
+.DS_Store
+
+# Audio outputs from runtime synthesis (not in repo)
+*.wav
+*.mp3
+*.flac
+# ...except docs samples (committed for the website)
+!docs/assets/audio/*.wav
+!docs/assets/audio/*.mp3
+
+/local/
+/exp*/
+/results/
+.cache/

@@ -1,0 +1,92 @@
+site_name: Strands OmniVoice
+site_url: https://cagataycali.github.io/strands-omnivoice
+site_description: "Multilingual zero-shot TTS toolkit for Strands Agents — voice cloning, voice design, and 600+ language synthesis."
+repo_url: https://github.com/cagataycali/strands-omnivoice
+repo_name: cagataycali/strands-omnivoice
+
+extra_css:
+  - stylesheets/extra.css?v=10
+extra_javascript:
+  - javascripts/audio.js?v=10
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quickstart: getting-started/quickstart.md
+  - Guide:
+    - Voice Cloning: guide/voice-cloning.md
+    - Voice Design: guide/voice-design.md
+    - Batch Synthesis: guide/batch.md
+    - Apple Silicon: guide/apple-silicon.md
+  - Examples:
+    - Overview: examples/overview.md
+  - Showcase: showcase/index.md
+  - Architecture: architecture.md
+  - API Reference: api-reference.md
+
+theme:
+  name: material
+  logo: assets/svg/logo.svg
+  favicon: assets/svg/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.betterem
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search

@@ -1,0 +1,9 @@
+strands-omnivoice is licensed under Apache 2.0 — same as the upstream
+OmniVoice project (https://github.com/k2-fsa/OmniVoice). See LICENSE for
+full terms.
+
+Upstream OmniVoice copyright:
+  Copyright 2026 Xiaomi Corp. (authors: Han Zhu et al., k2-fsa)
+
+This adapter:
+  Copyright 2026 Cagatay Cali

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48" height="48" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="fb-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <path d="M36 6 L14 36 L28 36 L24 58 L48 26 L34 26 Z" fill="url(#fb-g)" stroke="#B45309" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>
