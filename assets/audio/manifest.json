@@ -1,0 +1,217 @@
+[
+  {
+    "id": "hello_auto",
+    "tool": "tts",
+    "label": "Auto voice · English",
+    "tag": "tts",
+    "wav": "assets/audio/hello_auto.wav",
+    "mp3": "assets/audio/hello_auto.mp3",
+    "duration_s": 4.95,
+    "args": {
+      "text": "Hello world, welcome to Strands OmniVoice — multilingual zero-shot text to speech.",
+      "language": "English",
+      "num_step": 24
+    }
+  },
+  {
+    "id": "design_uk_elderly",
+    "tool": "design",
+    "label": "british elderly female",
+    "tag": "design",
+    "wav": "assets/audio/design_uk_elderly.wav",
+    "mp3": "assets/audio/design_uk_elderly.mp3",
+    "duration_s": 4.7,
+    "args": {
+      "text": "Once upon a time, in a land far far away, there lived a wise old story-teller.",
+      "instruct": "female, elderly, low pitch, british accent",
+      "language": "English",
+      "num_step": 24
+    }
+  },
+  {
+    "id": "design_us_male",
+    "tool": "design",
+    "label": "american middle-aged male",
+    "tag": "design",
+    "wav": "assets/audio/design_us_male.wav",
+    "mp3": "assets/audio/design_us_male.mp3",
+    "duration_s": 3.48,
+    "args": {
+      "text": "Houston, we have a problem. Repeat — Houston, we have a problem.",
+      "instruct": "male, middle-aged, american accent",
+      "language": "English",
+      "num_step": 24
+    }
+  },
+  {
+    "id": "design_whisper",
+    "tool": "design",
+    "label": "young whisper",
+    "tag": "design",
+    "wav": "assets/audio/design_whisper.wav",
+    "mp3": "assets/audio/design_whisper.mp3",
+    "duration_s": 3.76,
+    "args": {
+      "text": "And then, when no one was watching, everything went silent.",
+      "instruct": "female, young adult, whisper",
+      "language": "English",
+      "num_step": 24
+    }
+  },
+  {
+    "id": "design_indian",
+    "tool": "design",
+    "label": "indian accent",
+    "tag": "design",
+    "wav": "assets/audio/design_indian.wav",
+    "mp3": "assets/audio/design_indian.mp3",
+    "duration_s": 4.13,
+    "args": {
+      "text": "Welcome, my friend. Today I will tell you about the wonders of the universe.",
+      "instruct": "male, young adult, indian accent",
+      "language": "English",
+      "num_step": 24
+    }
+  },
+  {
+    "id": "lang_en",
+    "tool": "tts",
+    "label": "English",
+    "tag": "lang",
+    "wav": "assets/audio/lang_en.wav",
+    "mp3": "assets/audio/lang_en.mp3",
+    "duration_s": 3.2,
+    "args": {
+      "text": "Hello, how are you today? It's a beautiful morning.",
+      "language": "English",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_es",
+    "tool": "tts",
+    "label": "Spanish",
+    "tag": "lang",
+    "wav": "assets/audio/lang_es.wav",
+    "mp3": "assets/audio/lang_es.mp3",
+    "duration_s": 2.7,
+    "args": {
+      "text": "Hola, ¿cómo estás hoy? Es una mañana hermosa.",
+      "language": "Spanish",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_fr",
+    "tool": "tts",
+    "label": "French",
+    "tag": "lang",
+    "wav": "assets/audio/lang_fr.wav",
+    "mp3": "assets/audio/lang_fr.mp3",
+    "duration_s": 0.66,
+    "args": {
+      "text": "Bonjour, comment allez-vous aujourd'hui ? C'est une belle matinée.",
+      "language": "French",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_de",
+    "tool": "tts",
+    "label": "German",
+    "tag": "lang",
+    "wav": "assets/audio/lang_de.wav",
+    "mp3": "assets/audio/lang_de.mp3",
+    "duration_s": 4.04,
+    "args": {
+      "text": "Hallo, wie geht es Ihnen heute? Es ist ein wunderschöner Morgen.",
+      "language": "German",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_ja",
+    "tool": "tts",
+    "label": "Japanese",
+    "tag": "lang",
+    "wav": "assets/audio/lang_ja.wav",
+    "mp3": "assets/audio/lang_ja.mp3",
+    "duration_s": 4.28,
+    "args": {
+      "text": "こんにちは、お元気ですか。今朝はとても素敵な朝です。",
+      "language": "Japanese",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_zh",
+    "tool": "tts",
+    "label": "Chinese (Mandarin)",
+    "tag": "lang",
+    "wav": "assets/audio/lang_zh.wav",
+    "mp3": "assets/audio/lang_zh.mp3",
+    "duration_s": 3.48,
+    "args": {
+      "text": "你好，今天过得怎么样？今早天气真好。",
+      "language": "Chinese",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "lang_ar",
+    "tool": "tts",
+    "label": "Arabic",
+    "tag": "lang",
+    "wav": "assets/audio/lang_ar.wav",
+    "mp3": "assets/audio/lang_ar.mp3",
+    "duration_s": 3.25,
+    "args": {
+      "text": "مرحباً، كيف حالك اليوم؟ إنه صباح جميل.",
+      "language": "Arabic",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "tag_laughter",
+    "tool": "tts",
+    "label": "[laughter] tag",
+    "tag": "tags",
+    "wav": "assets/audio/tag_laughter.wav",
+    "mp3": "assets/audio/tag_laughter.mp3",
+    "duration_s": 4.08,
+    "args": {
+      "text": "[laughter] You really got me with that one! I didn't see it coming.",
+      "language": "English",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "tag_sigh",
+    "tool": "tts",
+    "label": "[sigh] tag",
+    "tag": "tags",
+    "wav": "assets/audio/tag_sigh.wav",
+    "mp3": "assets/audio/tag_sigh.mp3",
+    "duration_s": 2.03,
+    "args": {
+      "text": "[sigh] Another long day at the office.",
+      "language": "English",
+      "num_step": 20
+    }
+  },
+  {
+    "id": "clone_demo",
+    "tool": "clone",
+    "label": "voice clone (ref = hello_auto)",
+    "tag": "clone",
+    "wav": "assets/audio/clone_demo.wav",
+    "mp3": "assets/audio/clone_demo.mp3",
+    "duration_s": 4.06,
+    "args": {
+      "text": "This is the cloned voice speaking different words but in the same style.",
+      "ref_audio": "/Users/cagatay/omnivoice-dev/strands-omnivoice/docs/assets/audio/hello_auto.wav",
+      "language": "English",
+      "num_step": 24
+    }
+  }
+]
